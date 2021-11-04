@@ -121,7 +121,7 @@ body._lock {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  position: relative;
+  position: fixed;
 }
 @media only screen and (orientation: portrait) {
   .wrapper {
