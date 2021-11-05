@@ -388,6 +388,10 @@ body._lock {
   background-color: #F8FF13;
 }
 
+.header__registration:hover .registration__link {
+  background-color: #F8FF13;
+}
+
 .registration__link {
   display: block;
   -webkit-transform: skew(15deg);
@@ -397,10 +401,6 @@ body._lock {
   font-size: 1.6vh;
   line-height: 141%;
   padding: 0.8vh 2.8vh;
-}
-
-.registration__link:hover {
-  color: #000;
 }
 
 .footer__col {
@@ -840,6 +840,7 @@ body._lock {
   .footer {
     background: #000000;
     z-index: 20;
+    padding: 0 4vh;	  
   }
 
   .footer__col {
