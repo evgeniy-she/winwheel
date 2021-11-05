@@ -40,8 +40,8 @@ html {
 
 html,
 body {
-  height: 100%;
-  min-width: 320px;
+  height: 100vh;
+  overflow-y: visible;
 }
 
 body {
@@ -121,7 +121,7 @@ body._lock {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  position: fixed;
+  position: relative;
 }
 @media only screen and (orientation: portrait) {
   .wrapper {
