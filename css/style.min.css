@@ -389,7 +389,7 @@ body._lock {
 }
 
 .header__registration:hover .registration__link {
-  background-color: #F8FF13;
+  color: #000;
 }
 
 .registration__link {
