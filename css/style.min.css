@@ -667,6 +667,10 @@ body._lock {
   text-transform: uppercase;
 }
 
+.winwheel__btn:hover {
+  font-size: 4.5vh;	
+}
+
 .winwheel_bonus-2 .winwheel__dial {
   -webkit-animation: winwheel_bonus-2 5s forwards;
           animation: winwheel_bonus-2 5s forwards;
